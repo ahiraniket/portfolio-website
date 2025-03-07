@@ -4,13 +4,27 @@ import { useEffect, useState } from 'react';
 export default function Work() {
   const workExperiences = [
     {
+      employer: "Software Architech Inc.",
+      title: " Software Developer",
+      date: "Aug 2024 – Present",
+      location: "Remote, USA",
+      description: [
+        "Developed full-stack event-driven microservices with Spring Boot, Apache Kafka, and React, handling 50K+ daily transactions; cut latency by 40% via Kubernetes and scalable architecture",
+        "Built centralized monitoring dashboard leveraging Prometheus, Grafana, and ELK Stack for real-time metrics/logs, integrating OpenObserve and DataDog for advanced analytics; slashed MTTR by 65% and achieved 99.95% uptime",
+        "Streamlined PostgreSQL-based APIs and frontend state management incorporating Redis caching, indexed data structures, and Spring Data JPA; reduced query latency from 5s to 250ms, cloud costs by 30%, improving frontend performance",
+        "Automated CI/CD pipelines with Jenkins and SonarQube via Test Driven Development (TDD) boosting release frequency",
+      ],
+      tags: ["Java", "Spring Boot", "Microservices", "Apache Kafka", "React", "Kubernetes", "PostgreSQL"],
+      logo: "../images/work/company.png"
+    },
+    {
       employer: "Arizona State University",
       title: "Research Assistant - Living Repository",
       date: "Aug 2023 – May 2024",
       location: "Tempe, AZ",
       description: [
-        "Orchestrated precise input of historical and legal data into Quill platform achieving an exceptional 99.5% accuracy rate",
-        "Played pivotal role in creating 20% more efficient index in Living Repository Initiative, a collaborative venture with Oxford University, contributing to 15% reduction in project timeline, used Kafka for real-time data streaming and integration",
+        "Orchestrated precise input of historical and legal data into Quill platform achieving exceptional 99.5% accuracy rate",
+        "Spearheaded creating 20% more efficient index in Living Repository Initiative, a collaborative venture with Oxford University, contributing to 15% faster project timeline, employed Kafka for real-time data streaming and integration",
       ],
       tags: ["Python", "Data Migration", "Data Management", "Kafka"],
       logo: "../images/work/asu.png"
@@ -22,7 +36,7 @@ export default function Work() {
       location: "Ahmedabad, Gujarat, India",
       description: [
         "Collaborated with 8-member cross-functional team to design and implement scalable web applications using Spring MVC",
-        "Integrated RESTful APIs using OkHttp enabling real-time JSON data retrieval and processing from 100+ API endpoints",
+        "Integrated REST APIs employing OkHttp for JSON data retrieval and processing 100+ API endpoints across microservices",
         "Configured Spring Boot for enhanced application performance, auto-configuration, embedded servers, and production-ready metrics, leading to 25% response time improvement, enhanced code quality and maintainability using SonarQube"
       ],
       tags: ["Java", "Spring Boot", "API", "JavaScript"],
@@ -34,8 +48,8 @@ export default function Work() {
       date: "Nov 2022 – Jan 2023",
       location: "Tempe, AZ",
       description: [
-        "Accelerated data filtration and cleaning process for Historical Newspapers Databases with over 18000 data points",
-        "Utilized SQL queries and advanced functionalities for pertinent data acquisition, optimizing collection efficiency by 70%, reducing testing time by over 75% through automated testing and web scraping with BeautifulSoup4 and Selenium",
+        "Led accelerated data filtration and cleaning process for Historical Newspapers Databases with over 18000 data points",
+        "Utilized SQL queries and advanced functionalities for pertinent data acquisition, optimizing collection efficiency by 70%, cutting testing time by over 75% through automated testing and web scraping with BeautifulSoup4 and Selenium",
       ],
       tags: ["Python", "SQL", "Data Acquisition", "Selenium", "WebDriver"],
       logo: "../images/work/asu.png"
